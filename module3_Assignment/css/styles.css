@@ -1,0 +1,150 @@
+body{
+	font-size: 16px;
+	font-family: 'Jua', sans-serif;
+}
+
+/**The yellow coloured strip**/
+#header-nav{
+	background-color: #374760;
+	border-radius: 0;
+	border: 0;
+}
+
+/**The set of the name and kosher certified**/
+.navbar-brand{
+	padding-top: 25px;
+}
+
+/*Just the brand name*/
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+
+/*Styles to apply on hovering over the brand name*/
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+/*The set of 3 icons appearing*/
+#nav-list{
+	margin-top: 70px;
+	text-align: center;
+}
+
+/*The icons inside the list*/
+#nav-list a{
+	color: #fff;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background-color: #fff; 
+	color: #374760
+}
+
+/*The strip containing the logo and title*/
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+/**the icon with 3 horizontal strips appearing on small screen devices**/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #fff;
+
+}
+
+.navbar-header button.navbar-toggle{
+	float: right;
+	clear: both;
+	margin-top: -60px; 
+}
+
+
+@media (max-width: 767px){
+
+	.navbar-brand{
+		/*Decrease the padding and make the height concrete*/
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1{
+		/*brand name*/
+		padding-top: 10px;
+		font-size: 5vw;/*1 vw = 1% of screen width making it relative to screensize*/
+	}
+}
+
+/*Now improving the dropdown*/
+#collapsable-nav{
+	clear: both;
+
+}
+
+#collapsable-nav a{
+	font-size: 1.2em;
+	/*Increasing font size of titles of the logos in dropdown*/
+}
+
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+/*The call option appearing on mobile screens*/
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+#xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+/**THE END OF THE HEADER**/
+
+/**THE MAIN PAGE**/
+#main-title{
+	font-size: 2em;
+}
+
+.content-pages{
+	margin-top: 40px;
+}
+
+.page-titles{
+	font-size: 1.4em;
+}
+
+#chicken-page{
+	background-color: #d65764;
+	color: white;
+}
+
+#beef-page{
+	background-color: #b72433;
+	color: white;
+	margin-top: 30px; 
+}
+
+#sushi-page{
+	background-color: #cace46;
+	color: white;
+	margin-top: 30px; 
+}
